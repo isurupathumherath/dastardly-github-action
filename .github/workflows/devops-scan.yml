@@ -12,7 +12,7 @@ jobs:
         continue-on-error: true                        # This allows subsequent steps to run even if this step fails
         uses: PortSwigger/dastardly-github-action@main
         with:
-          target-url: 'https://dev-sl.fusionx.biz/'
+          target-url: 'https://dev-sl.fusionx.biz/web/'
     
       # You can replace this next step with any JUnit XML parser of your choosing
       - name: Publish Test Report
